@@ -1,98 +1,126 @@
 # SaaS Platform Optimization: Business Analysis & GRC Assessment
 
-## Executive Summary
+> Portfolio Project | Business Analysis & GRC Case Study
 
-This project presents a structured Business Analysis and Governance, Risk, and Compliance (GRC) assessment for a fictional SaaS platform.
+---
 
-The goal is to simulate a real-world scenario where a company faces operational inefficiencies, security risks, and compliance challenges. The project identifies key issues and proposes practical, business-oriented solutions aligned with industry frameworks.
+## Overview
+
+This project presents an end-to-end Business Analysis and Governance, Risk, and Compliance (GRC) assessment for a fictional SaaS company, **CloudBase Ltda**.
+
+The objective is to evaluate operational inefficiencies, identify security and compliance risks, and propose structured improvements aligned with industry best practices.
 
 ---
 
 ## Business Context
 
-The organization is a SaaS provider managing subscription services and sensitive customer data.
+CloudBase Ltda is a mid-sized SaaS company based in Lisbon, providing subscription management and analytics solutions to B2B clients across Europe.
 
-### Key Challenges:
+Rapid growth over recent years has led to gaps in governance, security, and operational processes.
 
-* Lack of access control mechanisms
-* Manual and inefficient onboarding processes
-* Absence of a formal risk management framework
+### Key Challenges
+
+* No structured access control (no RBAC or MFA)
+* Manual onboarding process (average 18 days vs industry benchmark of 7–10 days)
+* No formal risk management framework
 * Limited monitoring and audit capabilities
-* Potential GDPR non-compliance
+* GDPR compliance gaps (DPIA, DSAR processes, data retention)
+
+---
+
+## Problem Statement
+
+The combination of rapid scaling and lack of governance has created a high-risk environment where both operational efficiency and regulatory compliance are compromised.
+
+This exposes the organization to:
+
+* Unauthorized access risks
+* Data breaches
+* Regulatory penalties
+* Increased operational costs
+* Reduced customer trust
 
 ---
 
 ## Objectives
 
-* Improve operational efficiency
-* Strengthen security and access control
-* Reduce compliance and regulatory risks
-* Introduce governance best practices
+| Priority | Objective                           | Target                                 |
+| -------- | ----------------------------------- | -------------------------------------- |
+| Critical | Achieve GDPR baseline compliance    | Complete DPIA and regulatory readiness |
+| High     | Implement access control model      | RBAC + MFA within 90 days              |
+| High     | Reduce onboarding time              | ≤ 10 business days                     |
+| Medium   | Establish risk management framework | Risk register + review cycle           |
+| Medium   | Improve monitoring capabilities     | Centralized logging                    |
 
 ---
 
-## Scope of the Project
+## Scope of Work
 
 * Business process analysis
-* Stakeholder identification
+* Stakeholder analysis
 * Requirements definition
 * Risk assessment
 * Control design and mitigation
 * Gap analysis
-* Strategic recommendations and roadmap
+* Strategic recommendations
+* Implementation roadmap
 
 ---
 
-## Methodologies & Frameworks
+## Key Insight
 
-* Business Process Mapping (BPMN)
-* Risk Matrix (Impact vs Likelihood)
-* Gap Analysis
-* Governance and control mapping aligned with:
+Rapid business growth without corresponding governance has significantly increased both operational and compliance risks.
 
-  * ISO 27001
-  * NIST
+Addressing access control and regulatory gaps is critical to ensuring scalability and long-term sustainability.
 
 ---
 
-## Key Deliverables
+## Role & Responsibilities
 
-The full analysis is available in the `/docs` folder:
+* Conducted business process analysis of onboarding and access management
+* Identified key risks, including unauthorized access and compliance gaps
+* Defined functional and non-functional requirements
+* Proposed GRC-aligned controls and mitigation strategies
+* Designed a prioritized implementation roadmap
 
-* Business Context
-* Stakeholder Analysis
-* Process Mapping
-* Requirements
-* Risk Assessment
-* Controls & Mitigation
-* Gap Analysis
-* Recommendations
-* Implementation Roadmap
+---
+
+## Project Structure
+
+All detailed documentation is available in the `/docs` folder:
+
+* 01 — Business Context
+* 02 — Stakeholder Analysis
+* 03 — Process Mapping
+* 04 — Requirements
+* 05 — Risk Assessment
+* 06 — Controls & Mitigation
+* 07 — Gap Analysis
+* 08 — Recommendations
+* 09 — Roadmap
 
 ---
 
 ## Key Outcomes
 
 * Identification of critical security and operational risks
-* Definition of structured access control model (RBAC + MFA)
-* Improved onboarding process design
-* Alignment with industry security frameworks
-* Scalable governance and risk management approach
+* Structured access control strategy (RBAC + MFA)
+* Optimized onboarding process design
+* Improved compliance alignment with GDPR principles
+* Defined governance and risk management framework
 
 ---
 
-## Why This Project Matters
+## Tools & Methodologies
 
-This project demonstrates practical application of:
-
-* Business Analysis thinking
-* Risk identification and assessment
-* Governance and compliance fundamentals
-* Structured problem-solving in a SaaS environment
+* Business Process Mapping (BPMN)
+* Risk Matrix (Impact vs Likelihood)
+* Gap Analysis
+* GRC frameworks (ISO 27001, NIST)
 
 ---
 
 ## Author
-
+Julia sampaio 
 Aspiring Business Analyst & GRC Professional
 Based in Portugal | Open to international opportunities
