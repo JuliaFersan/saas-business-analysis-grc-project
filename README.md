@@ -121,6 +121,6 @@ All detailed documentation is available in the `/docs` folder:
 ---
 
 ## Author
-Julia sampaio 
+Julia sampaio |
 Aspiring Business Analyst & GRC Professional
 Based in Portugal | Open to international opportunities
