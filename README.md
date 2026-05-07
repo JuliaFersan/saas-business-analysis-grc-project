@@ -1,126 +1,103 @@
 # SaaS Platform Optimization: Business Analysis & GRC Assessment
-
-> Portfolio Project | Business Analysis & GRC Case Study
-
----
-
-## Overview
-
-This project presents an end-to-end Business Analysis and Governance, Risk, and Compliance (GRC) assessment for a fictional SaaS company, **CloudBase Ltda**.
-
-The objective is to evaluate operational inefficiencies, identify security and compliance risks, and propose structured improvements aligned with industry best practices.
+> A structured, end-to-end Business Analysis and GRC project simulating a real-world SaaS company scenario — built to demonstrate practical BA and GRC skills in a hiring context.
 
 ---
 
-## Business Context
+## Company: CloudBase Ltda (Fictional)
 
-CloudBase Ltda is a mid-sized SaaS company based in Lisbon, providing subscription management and analytics solutions to B2B clients across Europe.
-
-Rapid growth over recent years has led to gaps in governance, security, and operational processes.
-
-### Key Challenges
-
-* No structured access control (no RBAC or MFA)
-* Manual onboarding process (average 18 days vs industry benchmark of 7–10 days)
-* No formal risk management framework
-* Limited monitoring and audit capabilities
-* GDPR compliance gaps (DPIA, DSAR processes, data retention)
+CloudBase is a mid-sized SaaS provider managing subscription services and sensitive customer data for B2B clients across Europe. Facing rapid growth, a GDPR inquiry, and enterprise clients demanding security evidence, the company needed a structured approach to governance, risk, and compliance.
 
 ---
 
-## Problem Statement
+## Visual Summary
 
-The combination of rapid scaling and lack of governance has created a high-risk environment where both operational efficiency and regulatory compliance are compromised.
-
-This exposes the organization to:
-
-* Unauthorized access risks
-* Data breaches
-* Regulatory penalties
-* Increased operational costs
-* Reduced customer trust
+| Risk Matrix | Implementation Roadmap |
+|-------------|----------------------|
+| ![Risk Matrix](images/risk_matrix.svg) | ![Roadmap](images/roadmap.svg) |
 
 ---
 
-## Objectives
+## Key Problems Identified
 
-| Priority | Objective                           | Target                                 |
-| -------- | ----------------------------------- | -------------------------------------- |
-| Critical | Achieve GDPR baseline compliance    | Complete DPIA and regulatory readiness |
-| High     | Implement access control model      | RBAC + MFA within 90 days              |
-| High     | Reduce onboarding time              | ≤ 10 business days                     |
-| Medium   | Establish risk management framework | Risk register + review cycle           |
-| Medium   | Improve monitoring capabilities     | Centralized logging                    |
-
----
-
-## Scope of Work
-
-* Business process analysis
-* Stakeholder analysis
-* Requirements definition
-* Risk assessment
-* Control design and mitigation
-* Gap analysis
-* Strategic recommendations
-* Implementation roadmap
+| # | Challenge | Severity |
+|---|-----------|----------|
+| 1 | No RBAC or MFA — all users had admin access | 🔴 Critical |
+| 2 | No centralized logging or incident detection | 🔴 Critical |
+| 3 | GDPR non-compliance (no DPIA, no retention policy) | 🔴 Critical |
+| 4 | Manual onboarding — 18 days avg (benchmark: 7–10) | 🟠 High |
+| 5 | No offboarding process — ghost accounts in production | 🟠 High |
+| 6 | No risk management framework | 🔴 Critical |
 
 ---
 
-## Key Insight
+## Project Scope
 
-Rapid business growth without corresponding governance has significantly increased both operational and compliance risks.
-
-Addressing access control and regulatory gaps is critical to ensuring scalability and long-term sustainability.
-
----
-
-## Role & Responsibilities
-
-* Conducted business process analysis of onboarding and access management
-* Identified key risks, including unauthorized access and compliance gaps
-* Defined functional and non-functional requirements
-* Proposed GRC-aligned controls and mitigation strategies
-* Designed a prioritized implementation roadmap
+- Business context analysis and problem framing  
+- Stakeholder identification, influence mapping, and RACI matrix  
+- As-Is and To-Be process mapping (BPMN notation)  
+- Functional and non-functional requirements (MoSCoW)  
+- Risk register with 8 identified risks (Impact × Likelihood)  
+- 28 controls mapped to ISO 27001 Annex A and NIST CSF  
+- Gap analysis across 14 control domains  
+- Strategic recommendations and 12-month implementation roadmap  
 
 ---
 
-## Project Structure
+## 📁 Project Deliverables
 
-All detailed documentation is available in the `/docs` folder:
-
-* 01 — Business Context
-* 02 — Stakeholder Analysis
-* 03 — Process Mapping
-* 04 — Requirements
-* 05 — Risk Assessment
-* 06 — Controls & Mitigation
-* 07 — Gap Analysis
-* 08 — Recommendations
-* 09 — Roadmap
+| File | Description |
+|------|-------------|
+| [`01_business_context.md`](docs/01_business_context.md) | Company overview, challenges, objectives, constraints |
+| [`02_stakeholder_analysis.md`](docs/02_stakeholder_analysis.md) | Stakeholder map, Power/Interest grid, RACI matrix |
+| [`03_process_mapping.md`](docs/03_process_mapping.md) | As-Is and To-Be BPMN flows (onboarding + access provisioning) |
+| [`04_requirements.md`](docs/04_requirements.md) | Functional and non-functional requirements (MoSCoW) |
+| [`05_risk_assessment.md`](docs/05_risk_assessment.md) | Risk register — 8 risks with full detail and scoring |
+| [`06_controls_mitigation.md`](docs/06_controls_mitigation.md) | 28 controls mapped to ISO 27001 and NIST CSF |
+| [`07_gap_analysis.md`](docs/07_gap_analysis.md) | Gap analysis across ISO 27001 and NIST CSF 2.0 |
+| [`08_recommendations_roadmap.md`](docs/08_recommendations_roadmap.md) | Prioritized recommendations + 3-phase roadmap |
 
 ---
 
 ## Key Outcomes
 
-* Identification of critical security and operational risks
-* Structured access control strategy (RBAC + MFA)
-* Optimized onboarding process design
-* Improved compliance alignment with GDPR principles
-* Defined governance and risk management framework
+- **8 critical risks identified** — 5 rated Critical, 2 High, 1 Medium  
+- **28 controls defined** — mapped to ISO 27001 Annex A and NIST CSF  
+- **RBAC model designed** — 5 roles, least-privilege, MFA enforcement  
+- **Onboarding redesigned** — from 18 days to a target of ≤10 business days  
+- **GDPR remediation roadmap** — 5 priority actions toward baseline compliance  
+- **NIST maturity target** — from 1.2/5 (current) to 3.0/5 (after roadmap)  
+- **ISO 27001 coverage** — from 8% to a projected ~65% after 12 months  
 
 ---
 
-## Tools & Methodologies
+## Tools & Frameworks
 
-* Business Process Mapping (BPMN)
-* Risk Matrix (Impact vs Likelihood)
-* Gap Analysis
-* GRC frameworks (ISO 27001, NIST)
+| Category | Detail |
+|----------|--------|
+| Process Mapping | BPMN 2.0 notation (Draw.io) |
+| Risk Methodology | Impact × Likelihood matrix |
+| Security Framework | ISO 27001:2022 (Annex A controls) |
+| Risk Framework | NIST Cybersecurity Framework 2.0 |
+| Access Model | Role-Based Access Control (RBAC) |
+| Compliance | GDPR (EU), NIS2 |
+| Documentation | Markdown, structured requirements (MoSCoW) |
+| Version Control | GitHub |
+
+---
+
+##  Why This Project
+
+This project simulates the kind of engagement a junior BA or GRC analyst might be handed on their first week: a company that grew fast, deprioritized governance, and is now facing the consequences. The goal was to work through it systematically — from stakeholder mapping to a deliverable roadmap — using the same frameworks referenced in job descriptions.
+
+It is fictional, but built with the same structure and rigour I would apply in a real environment.
 
 ---
 
 ## Author
-Julia sampaio |
-Aspiring Business Analyst & GRC Professional
-Based in Portugal | Open to international opportunities
+
+**Julia Sampaio**  
+Aspiring Business Analyst & GRC Professional  
+📍 Portugal · Open to remote and international opportunities
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/juliafersan)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/JuliaFersan)
