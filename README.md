@@ -46,15 +46,14 @@ This project includes:
 
 | File | Description |
 |------|-------------|
-| `01_business_context.md` | Business context, objectives, constraints |
-| `02_stakeholder_analysis.md` | Stakeholder map, influence analysis, RACI |
-| `03_process_mapping.md` | As-Is and To-Be onboarding/access flows |
-| `04_requirements.md` | Functional & non-functional requirements |
-| `05_risk_assessment.md` | Risk register with scoring and mitigation |
-| `06_controls_mitigation.md` | Security controls aligned to ISO/NIST |
-| `07_gap_analysis.md` | Governance and compliance gap analysis |
-| `08_recommendations_roadmap.md` | Recommendations and implementation roadmap |
-
+| [`01_business_context.md`](docs/01_business_context.md) | Business context, objectives, constraints |
+| [`02_stakeholder_analysis.md`](docs/02_stakeholder_analysis.md) | Stakeholder map, influence analysis, RACI |
+| [`03_process_mapping.md`](docs/03_process_mapping.md) | As-Is and To-Be onboarding/access flows |
+| [`04_requirements.md`](docs/04_requirements.md) | Functional & non-functional requirements |
+| [`05_risk_assessment.md`](docs/05_risk_assessment.md) | Risk register with scoring and mitigation |
+| [`06_controls_mitigation.md`](docs/06_controls_mitigation.md) | Security controls aligned to ISO/NIST |
+| [`07_gap_analysis.md`](docs/07_gap_analysis.md) | Governance and compliance gap analysis |
+| [`08_recommendations_roadmap.md`](docs/08_recommendations_roadmap.md) | Recommendations and implementation roadmap |
 ---
 
 ## Key Outcomes
