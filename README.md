@@ -1,19 +1,16 @@
 # SaaS Platform Optimization: Business Analysis & GRC Assessment
-> A structured, end-to-end Business Analysis and GRC project simulating a real-world SaaS company scenario — built to demonstrate practical BA and GRC skills in a hiring context.
+
+> End-to-end Business Analysis and GRC case study simulating a real-world SaaS company scenario — focused on governance, operational efficiency, risk management, and compliance.
 
 ---
 
-## Company: CloudBase Ltda (Fictional)
+## Company Overview — CloudBase Ltda (Fictional)
 
-CloudBase is a mid-sized SaaS provider managing subscription services and sensitive customer data for B2B clients across Europe. Facing rapid growth, a GDPR inquiry, and enterprise clients demanding security evidence, the company needed a structured approach to governance, risk, and compliance.
+CloudBase is a fictional mid-sized SaaS company providing subscription management and analytics solutions for B2B clients across Europe.
 
----
+Following rapid growth, the company began facing operational inefficiencies, security concerns, and increasing compliance pressure related to GDPR and enterprise client requirements.
 
-## Visual Summary
-
-| Risk Matrix | Implementation Roadmap |
-|-------------|----------------------|
-| ![Risk Matrix](images/risk_matrix.svg) | ![Roadmap](images/roadmap.svg) |
+This project simulates a structured Business Analysis and GRC engagement designed to assess the company's current state, identify risks, and propose practical improvements.
 
 ---
 
@@ -21,52 +18,53 @@ CloudBase is a mid-sized SaaS provider managing subscription services and sensit
 
 | # | Challenge | Severity |
 |---|-----------|----------|
-| 1 | No RBAC or MFA — all users had admin access | 🔴 Critical |
-| 2 | No centralized logging or incident detection | 🔴 Critical |
-| 3 | GDPR non-compliance (no DPIA, no retention policy) | 🔴 Critical |
-| 4 | Manual onboarding — 18 days avg (benchmark: 7–10) | 🟠 High |
-| 5 | No offboarding process — ghost accounts in production | 🟠 High |
-| 6 | No risk management framework | 🔴 Critical |
+| 1 | No RBAC or MFA — all users had administrative access | 🔴 Critical |
+| 2 | No centralized logging or incident monitoring | 🔴 Critical |
+| 3 | GDPR compliance gaps (no DPIA or retention policy) | 🔴 Critical |
+| 4 | Manual onboarding process averaging 18 business days | 🟠 High |
+| 5 | No formal offboarding process — inactive accounts remained active | 🟠 High |
+| 6 | No formal risk management framework | 🔴 Critical |
 
 ---
 
 ## Project Scope
 
+This project includes:
+
 - Business context analysis and problem framing  
-- Stakeholder identification, influence mapping, and RACI matrix  
-- As-Is and To-Be process mapping (BPMN notation)  
-- Functional and non-functional requirements (MoSCoW)  
-- Risk register with 8 identified risks (Impact × Likelihood)  
-- 28 controls mapped to ISO 27001 Annex A and NIST CSF  
-- Gap analysis across 14 control domains  
-- Strategic recommendations and 12-month implementation roadmap  
+- Stakeholder analysis and RACI matrix  
+- As-Is and To-Be process mapping (BPMN)  
+- Functional and non-functional requirements (MoSCoW prioritization)  
+- Risk assessment and risk register  
+- Controls mapped to ISO 27001 Annex A and NIST CSF 2.0  
+- Gap analysis and remediation recommendations  
+- Strategic implementation roadmap  
 
 ---
 
-## 📁 Project Deliverables
+## Project Deliverables
 
 | File | Description |
 |------|-------------|
-| [`01_business_context.md`](docs/01_business_context.md) | Company overview, challenges, objectives, constraints |
-| [`02_stakeholder_analysis.md`](docs/02_stakeholder_analysis.md) | Stakeholder map, Power/Interest grid, RACI matrix |
-| [`03_process_mapping.md`](docs/03_process_mapping.md) | As-Is and To-Be BPMN flows (onboarding + access provisioning) |
-| [`04_requirements.md`](docs/04_requirements.md) | Functional and non-functional requirements (MoSCoW) |
-| [`05_risk_assessment.md`](docs/05_risk_assessment.md) | Risk register — 8 risks with full detail and scoring |
-| [`06_controls_mitigation.md`](docs/06_controls_mitigation.md) | 28 controls mapped to ISO 27001 and NIST CSF |
-| [`07_gap_analysis.md`](docs/07_gap_analysis.md) | Gap analysis across ISO 27001 and NIST CSF 2.0 |
-| [`08_recommendations_roadmap.md`](docs/08_recommendations_roadmap.md) | Prioritized recommendations + 3-phase roadmap |
+| `01_business_context.md` | Business context, objectives, constraints |
+| `02_stakeholder_analysis.md` | Stakeholder map, influence analysis, RACI |
+| `03_process_mapping.md` | As-Is and To-Be onboarding/access flows |
+| `04_requirements.md` | Functional & non-functional requirements |
+| `05_risk_assessment.md` | Risk register with scoring and mitigation |
+| `06_controls_mitigation.md` | Security controls aligned to ISO/NIST |
+| `07_gap_analysis.md` | Governance and compliance gap analysis |
+| `08_recommendations_roadmap.md` | Recommendations and implementation roadmap |
 
 ---
 
 ## Key Outcomes
 
-- **8 critical risks identified** — 5 rated Critical, 2 High, 1 Medium  
-- **28 controls defined** — mapped to ISO 27001 Annex A and NIST CSF  
-- **RBAC model designed** — 5 roles, least-privilege, MFA enforcement  
-- **Onboarding redesigned** — from 18 days to a target of ≤10 business days  
-- **GDPR remediation roadmap** — 5 priority actions toward baseline compliance  
-- **NIST maturity target** — from 1.2/5 (current) to 3.0/5 (after roadmap)  
-- **ISO 27001 coverage** — from 8% to a projected ~65% after 12 months  
+- Identified 8 major operational and security risks  
+- Designed an RBAC model with MFA enforcement  
+- Reduced onboarding target from 18 to ≤10 business days  
+- Proposed GDPR remediation actions and governance improvements  
+- Structured controls aligned with ISO 27001 and NIST CSF  
+- Developed a phased roadmap balancing risk reduction and business priorities  
 
 ---
 
@@ -74,30 +72,34 @@ CloudBase is a mid-sized SaaS provider managing subscription services and sensit
 
 | Category | Detail |
 |----------|--------|
-| Process Mapping | BPMN 2.0 notation (Draw.io) |
-| Risk Methodology | Impact × Likelihood matrix |
-| Security Framework | ISO 27001:2022 (Annex A controls) |
-| Risk Framework | NIST Cybersecurity Framework 2.0 |
-| Access Model | Role-Based Access Control (RBAC) |
-| Compliance | GDPR (EU), NIS2 |
-| Documentation | Markdown, structured requirements (MoSCoW) |
+| Process Mapping | BPMN 2.0 (Draw.io) |
+| Risk Assessment | Impact × Likelihood Matrix |
+| Security Framework | ISO 27001:2022 |
+| Cybersecurity Framework | NIST CSF 2.0 |
+| Compliance | GDPR / NIS2 |
+| Requirements Prioritization | MoSCoW Method |
+| Documentation | Markdown |
 | Version Control | GitHub |
 
 ---
 
-##  Why This Project
+## Why This Project Was Created
 
-This project simulates the kind of engagement a junior BA or GRC analyst might be handed on their first week: a company that grew fast, deprioritized governance, and is now facing the consequences. The goal was to work through it systematically — from stakeholder mapping to a deliverable roadmap — using the same frameworks referenced in job descriptions.
+I created this project to bridge the gap between academic knowledge and practical application in Business Analysis and GRC.
 
-It is fictional, but built with the same structure and rigour I would apply in a real environment.
+The scenario was intentionally designed around realistic SaaS operational and compliance challenges commonly faced by fast-growing companies.
+
+The objective was not only to demonstrate theoretical understanding, but also to show structured thinking, prioritization, and problem-solving in a business environment.
+
+While fictional, the project follows the same logic, documentation structure, and analysis approach that would be used in a real-world engagement.
 
 ---
 
-## Author
+## 👩‍💼 Author
 
-**Julia Sampaio**  
+### Julia Sampaio
 Aspiring Business Analyst & GRC Professional  
 📍 Portugal · Open to remote and international opportunities
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/juliafersan)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/JuliaFersan)
+- LinkedIn: https://www.linkedin.com/in/julia-s-ab4b08339/
+- GitHub: https://github.com/JuliaFersan
