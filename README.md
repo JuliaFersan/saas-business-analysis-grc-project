@@ -42,7 +42,7 @@ This project includes:
 
 ---
 
-## Project Deliverables
+## 📁 Project Deliverables
 
 | File | Description |
 |------|-------------|
@@ -95,11 +95,12 @@ While fictional, the project follows the same logic, documentation structure, an
 
 ---
 
-## 👩‍💼 Author
+## Author
 
 ### Julia Sampaio
 Aspiring Business Analyst & GRC Professional  
 📍 Portugal · Open to remote and international opportunities
 
-- LinkedIn: https://www.linkedin.com/in/julia-s-ab4b08339/
-- GitHub: https://github.com/JuliaFersan
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/julia-s-ab4b08339/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/JuliaFersan)
