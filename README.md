@@ -51,9 +51,9 @@ This project includes:
 | [`03-process-mapping.md`](docs/03-process-mapping.md) | As-Is and To-Be onboarding/access flows |
 | [`04-requirements.md`](docs/04-requirements.md) | Functional & non-functional requirements |
 | [`05-risk-assessment.md`](docs/05-risk-assessment.md) | Risk register with scoring and mitigation |
-| [`06-controls-and-mitigation.md`](docs/06-controls-mitigation.md) | Security controls aligned to ISO/NIST |
+| [`06-controls-and-mitigation.md`](docs/06-controls-and-mitigation.md) | Security controls aligned to ISO/NIST |
 | [`07-gap-analysis.md`](docs/07-gap-analysis.md) | Governance and compliance gap analysis |
-| [`08-recommendations& Implementation Roadmap.md`](docs/08-recommendations& Implementation Roadmap.md) | Recommendations and implementation roadmap |
+| [`08-recommendations-roadmap.md`](docs/08-recommendations-roadmap.md) | Recommendations and implementation roadmap |
 ---
 
 ## Key Outcomes
