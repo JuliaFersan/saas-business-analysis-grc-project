@@ -46,14 +46,14 @@ This project includes:
 
 | File | Description |
 |------|-------------|
-| [`01_business_context.md`](docs/01_business_context.md) | Business context, objectives, constraints |
-| [`02_stakeholder_analysis.md`](docs/02_stakeholder_analysis.md) | Stakeholder map, influence analysis, RACI |
-| [`03_process_mapping.md`](docs/03_process_mapping.md) | As-Is and To-Be onboarding/access flows |
-| [`04_requirements.md`](docs/04_requirements.md) | Functional & non-functional requirements |
-| [`05_risk_assessment.md`](docs/05_risk_assessment.md) | Risk register with scoring and mitigation |
-| [`06_controls_mitigation.md`](docs/06_controls_mitigation.md) | Security controls aligned to ISO/NIST |
-| [`07_gap_analysis.md`](docs/07_gap_analysis.md) | Governance and compliance gap analysis |
-| [`08_recommendations_roadmap.md`](docs/08_recommendations_roadmap.md) | Recommendations and implementation roadmap |
+| [`01-business-context.md`](docs/01-business-context.md) | Business context, objectives, constraints |
+| [`02-stakeholder-analysis.md`](docs/02-stakeholder-analysis.md) | Stakeholder map, influence analysis, RACI |
+| [`03-process-mapping.md`](docs/03-process-mapping.md) | As-Is and To-Be onboarding/access flows |
+| [`04-requirements.md`](docs/04-requirements.md) | Functional & non-functional requirements |
+| [`05-risk-assessment.md`](docs/05-risk-assessment.md) | Risk register with scoring and mitigation |
+| [`06-controls-mitigation.md`](docs/06-controls-mitigation.md) | Security controls aligned to ISO/NIST |
+| [`07-gap-analysis.md`](docs/07-gap-analysis.md) | Governance and compliance gap analysis |
+| [`08-recommendations-roadmap.md`](docs/08-recommendations-roadmap.md) | Recommendations and implementation roadmap |
 ---
 
 ## Key Outcomes
